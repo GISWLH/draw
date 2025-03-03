@@ -1,0 +1,379 @@
+<mxfile host="app.diagrams.net" modified="2025-03-03T12:00:00.000Z" agent="Mozilla/5.0" version="15.8.6" etag="your_etag" type="device">
+  <diagram id="renewable_energy_optimization" name="Renewable Energy Optimization">
+    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Left Panel - Procedures -->
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="520" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Procedures of spatiotemporal optimization&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4D72C0;fontColor=#FFFFFF;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="480" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Geospatial data box -->
+        <mxCell id="4" value="Geospatial data of solar radiation, solar angle, land use, slope, temperature, wind speed, zero-plane displacement height, and length of roughness)" style="rounded=1;whiteSpace=wrap;html=1;align=center;strokeWidth=1;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="420" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Costs box -->
+        <mxCell id="5" value="Costs of PV panels, wind turbines, mounting material, secondary equipment, inverter, grid connection, installation work, permitting and commission, planning, transformer and cables" style="rounded=1;whiteSpace=wrap;html=1;align=center;strokeWidth=1;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="490" y="90" width="330" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Minimizing LCOE 1 -->
+        <mxCell id="6" value="Minimizing LCOE in each power plant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="490" y="210" width="330" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Spatial distribution -->
+        <mxCell id="7" value="Spatial distribution of 22,821 PV, onshore and offshore-wind power plants in 192 countries" style="rounded=1;whiteSpace=wrap;html=1;align=center;strokeWidth=1;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="40" y="245" width="800" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- National hourly power demand box -->
+        <mxCell id="8" value="• National hourly power demand in a future year&#xa;• Current power transmission between countries&#xa;(±800 kV DC, ±1,100 kV DC or 1,000 kV AC)" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeWidth=1;fillColor=none;fontSize=12;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="290" width="420" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Minimizing LCOE 2 -->
+        <mxCell id="9" value="Minimizing LCOE in each power plant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="490" y="315" width="330" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Capacity and costs of power transmission -->
+        <mxCell id="10" value="Capacity and costs of power transmission when building a new PV or wind-power plant" style="rounded=1;whiteSpace=wrap;html=1;align=center;strokeWidth=1;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="40" y="380" width="800" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- National hourly power demand and storage box -->
+        <mxCell id="11" value="• National hourly power demand in a future year&#xa;• Current capacities of energy storage by pump hydro, chemical battery and electric vehicle" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeWidth=1;fillColor=none;fontSize=12;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="425" width="420" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Minimizing LCOE 3 -->
+        <mxCell id="12" value="Minimizing LCOE in each power plant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="490" y="450" width="330" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Capacity and costs of energy storage -->
+        <mxCell id="13" value="Capacity and costs of energy storage when building a new PV or wind-power plant" style="rounded=1;whiteSpace=wrap;html=1;align=center;strokeWidth=1;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="40" y="510" width="800" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Production and reserve box -->
+        <mxCell id="14" value="• Production and reserve of materials by country&#xa;• Current trade of materials between countries&#xa;• Demand for materials in a future year" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeWidth=1;fillColor=none;fontSize=12;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="555" width="420" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Minimizing LCOE for net-zero -->
+        <mxCell id="15" value="Minimizing LCOE of all PV and wind-power plants to meet a net-zero CO₂ emissions target in each country" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="490" y="565" width="330" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Temporal distribution -->
+        <mxCell id="16" value="Temporal distribution of the capacities of PV and wind-power plants built per 5 years" style="rounded=1;whiteSpace=wrap;html=1;align=center;strokeWidth=1;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="40" y="640" width="800" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Maximal capacities box -->
+        <mxCell id="17" value="• Maximal capacities of other sources of low-carbon energy by country&#xa;• Marginal costs of carbon capture and storage (CCS) and other sources of low-carbon energy&#xa;• Demand for energy when meeting a net-zero CO₂ emissions target in a future year" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeWidth=1;fillColor=none;fontSize=12;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="685" width="420" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Minimizing LCOE for target year -->
+        <mxCell id="18" value="Minimizing LCOE for all power plants in a target year of achieving the net-zero CO₂ emissions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="490" y="715" width="330" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Location and capacities -->
+        <mxCell id="19" value="Location and capacities of PV and wind-power plants, and national capacities of CCS and other sources of low-carbon energy installed at an interval of 5 years over 2021–2070 in 192 countries" style="rounded=1;whiteSpace=wrap;html=1;align=center;strokeWidth=1;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="40" y="780" width="800" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- Right Panel - Scenarios -->
+        <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="20" width="520" height="820" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Scenarios of renewable energy&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4D72C0;fontColor=#FFFFFF;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="590" y="40" width="440" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Scenarios flow chart -->
+        <!-- Baseline -->
+        <mxCell id="22" value="Baseline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673A6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="770" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case A -->
+        <mxCell id="23" value="Case A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673A6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="675" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case A Description -->
+        <mxCell id="24" value="Considering the reduction of costs due to technological advances" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="735" width="220" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case B -->
+        <mxCell id="25" value="Case B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673A6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="585" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case B Description -->
+        <mxCell id="26" value="Increasing the capacity of power transmission in each country" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="635" width="220" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case C -->
+        <mxCell id="27" value="Case C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673A6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="485" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case C Description -->
+        <mxCell id="28" value="Increasing the capacity of energy storage in each country" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="545" width="220" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case D -->
+        <mxCell id="29" value="Case D" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673A6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="385" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case D Description -->
+        <mxCell id="30" value="Increasing the import of minerals from other countries to a country" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="440" width="220" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case E -->
+        <mxCell id="31" value="Case E" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673A6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Case E Description -->
+        <mxCell id="32" value="Increasing the capacity of power transmission between countries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="340" width="220" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Optimal case -->
+        <mxCell id="33" value="Optimal case" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673A6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Optimal case Description -->
+        <mxCell id="34" value="Developing regional supply chains of PV panels and wind turbines" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="240" width="220" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Opt_GSC -->
+        <mxCell id="35" value="Opt_GSC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673A6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Opt_GSC Description -->
+        <mxCell id="36" value="Developing global supply chains of PV panels and wind turbines" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="140" width="220" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrows connecting the scenarios -->
+        <mxCell id="37" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;strokeWidth=3;strokeColor=#4D72C0;" parent="1" source="22" target="23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="730" as="sourcePoint" />
+            <mxPoint x="700" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="38" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;strokeWidth=3;strokeColor=#4D72C0;" parent="1" source="23" target="25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="630" as="sourcePoint" />
+            <mxPoint x="700" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="39" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;strokeWidth=3;strokeColor=#4D72C0;" parent="1" source="25" target="27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="530" as="sourcePoint" />
+            <mxPoint x="700" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="40" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;strokeWidth=3;strokeColor=#4D72C0;" parent="1" source="27" target="29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="700" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="41" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;strokeWidth=3;strokeColor=#4D72C0;" parent="1" source="29" target="31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="330" as="sourcePoint" />
+            <mxPoint x="700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="42" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;strokeWidth=3;strokeColor=#4D72C0;" parent="1" source="31" target="33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="230" as="sourcePoint" />
+            <mxPoint x="700" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="43" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;strokeWidth=3;strokeColor=#4D72C0;" parent="1" source="33" target="35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="130" as="sourcePoint" />
+            <mxPoint x="700" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Arrows connecting cases to their descriptions -->
+        <mxCell id="44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="700" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="25" target="26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="700" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="46" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="27" target="28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="700" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="29" target="30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="700" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="31" target="32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="330" as="sourcePoint" />
+            <mxPoint x="700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="49" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="33" target="34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="230" as="sourcePoint" />
+            <mxPoint x="700" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="50" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="35" target="36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="130" as="sourcePoint" />
+            <mxPoint x="700" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Arrows connecting procedural steps -->
+        <mxCell id="51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="54" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8" target="9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="11" target="13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="14" target="16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="580" as="sourcePoint" />
+            <mxPoint x="570" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="58" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="14" target="15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="580" as="sourcePoint" />
+            <mxPoint x="570" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="780" as="sourcePoint" />
+            <mxPoint x="570" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="60" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="17" target="18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="680" as="sourcePoint" />
+            <mxPoint x="570" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Connect baseline to left panel -->
+        <mxCell id="61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#4D72C0;" parent="1" source="22" target="19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="680" as="sourcePoint" />
+            <mxPoint x="570" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Input data and Sensitivity tests legend -->
+        <mxCell id="62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="890" y="5" width="20" height="10" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="63" value="Input data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="920" y="0" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="64" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="5" width="20" height="10" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="65" value="Sensitivity tests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="0" width="90" height="20" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
