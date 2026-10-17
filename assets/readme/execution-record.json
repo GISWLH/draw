@@ -1,0 +1,15 @@
+{
+  "repo": "GISWLH/draw",
+  "environment": "EHPC PBS",
+  "execution_scope": "Original aiweather.drawio document rendered by the official diagrams.net viewer on EHPC. This is a drawing preview, not a scientific result; historical statements in the source drawing were not fact-checked.",
+  "exit_code": 0,
+  "output": {
+    "path": "assets/readme/execution-result.png",
+    "sha256": "6f0d71f062d6ff1d1a3b20427bd5b4d386805cf11fb5f5f6168a7953ef980401"
+  },
+  "source_modified": false,
+  "source_file": "aiweather.drawio",
+  "source_sha256": "69873da7dcf3f600516670a77b57e0b1393a6fce2ca27c9336e1f2a096d0c881",
+  "viewer_url": "https://viewer.diagrams.net/js/viewer-static.min.js",
+  "viewer_sha256": "15777571ef7c042b2a4a6c6d29052f416fbaaaae5dcf868521c4a3a75f2147d8"
+}
